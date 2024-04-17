@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "duration": "Jan 2020 - Present",
+    "title": "Software Engineer",
+    "company": "ABC Company",
+    "description": "Responsible for developing web applications using React.js and Node.js.",
+    "skills": ["React.js", "Node.js", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "id": 2,
+    "duration": "Jun 2018 - Dec 2019",
+    "title": "Intern",
+    "company": "XYZ Corporation",
+    "description": "Assisted in various software development projects and gained hands-on experience.",
+    "skills": ["Java", "Python", "SQL", "Git"]
+  },
+
+  {
+    "id": 3,
+    "duration": "Jun 2018 - Dec 2019",
+    "title": "Intern",
+    "company": "XYZ Corporation",
+    "description": "Assisted in various software development projects and gained hands-on experience.",
+    "skills": ["Java", "Python", "SQL", "Git"]
+  }
+]
