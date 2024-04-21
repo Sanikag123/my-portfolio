@@ -1,0 +1,21 @@
+
+[   
+    { 
+    
+    "title": "Frontend",
+    "tech": ["JavaScript", "ReactJS", "HTML", "CSS", "D3.js", "Tailwind" ]
+    },
+
+    { 
+    
+    "title": "Backend",
+    "tech": ["Java", "Python", "C++", "Spring Boot", "JDBC" ]
+    },
+
+    { 
+    
+    "title": "Databases",
+    "tech": ["PostGreSQL", "Oracle", "MySQL", "SQL Server", "OrientDB", "MongoDB", "Sap Hana" ]
+    }
+]
+  
