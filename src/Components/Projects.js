@@ -1,5 +1,7 @@
 import React from "react"
 import projectsData from "./Data/projects.json"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faClose} from "@fortawesome/free-solid-svg-icons"
 
 export default function Projects() {
 
@@ -7,7 +9,7 @@ export default function Projects() {
 
     React.useEffect(() => {
         const handleScroll = () => {
-            const section = document.getElementById('Experience');
+            const section = document.getElementById('Projects');
             if (section) {
                 const { top } = section.getBoundingClientRect();
                 setisVisibleProject(top < window.innerHeight / 2);
@@ -41,9 +43,10 @@ export default function Projects() {
     var css = isVisibleProject ? 'fade-in' : 'opacity-0'
     console.log("css" + css)
     return (
-        <section id="Projects" className={`container mx-auto flex px-10 py-10 flex-col ${isVisibleProject ? 'fade-in' : 'opacity-0'}`}>
+        <section id="Projects" className={`container mx-auto flex px-10 py-40 flex-col ${isVisibleProject ? 'fade-in' : 'opacity-0'}`}>
          <div>
-        <h2 className="mb-4 flex title-font sm:text-5xl text-5xl mb-4 font-medium text-white">Projects</h2>
+        <h2 className="mb-4 flex title-font sm:text-5xl text-5xl mb-4 font-medium text-green-300">Projects</h2>
+        <div class="border-b border-gray-400 w-full"></div>
             <div className="flex flex-wrap -mx-4">
            
                 {projectsData.map(project => (
@@ -53,7 +56,7 @@ export default function Projects() {
                             <p className="text-xl text-gray-600 mb-2 p-4">{project.description}</p>
                             <ul className="mb-2 list-none p-auto flex items-center text-xl text-xl">
                             {project.technologies.map((skill, index) => (
-                                <li className="bg-gray-700 rounded-full px-2 py-1 mx-auto" key={index}>{skill}</li>
+                                <li className="bg-gray-700 rounded-full p-3 mx-auto" key={index}>{skill}</li>
                             ))}
                         </ul>
                         </div>
@@ -62,16 +65,21 @@ export default function Projects() {
             </div>
             {selectedProject && (
                 <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 bg-opacity-75 z-50">
-                    <div className="bg-gray-400 rounded-lg p-8 max-w-lg">
-                        <button className="absolute top-0 right-0 p-3" onClick={closePopup}>
-                            <svg className="w-6 h-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    {/* <button className="top-0 right-0 p-3" onClick={closePopup}>
+                            <svg className="w-6 h-6 text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                             </svg>
-                        </button>
+                        </button> */}
+                       
+                    <div className="bg-gray-400 rounded-lg p-8 max-w-lg relative">
+                    <FontAwesomeIcon icon={faClose} className="w-6 h-6 absolute top-0 right-0 mt-2 mr-2 hover:text-gray-800" onClick={closePopup}></FontAwesomeIcon>
                         <h2 className="text-2xl font-bold mb-4">{selectedProject.title}</h2>
+                        
                         <p className="text-gray-800 mb-4">{selectedProject.description}</p>
                         <p className="text-gray-800">{`Technologies: ${selectedProject.technologies}`}</p>
+                       
                     </div>
+                   
                 </div>
             )}
         </div>

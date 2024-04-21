@@ -4,12 +4,22 @@ import About from "./Components/About"
 import Projects from "./Components/Projects"
 import Skills from "./Components/Skills"
 import Contact from "./Components/Contact"
-import Experience from "./Components/Experience.js";
+import Experience from "./Components/Experience.js"
+import Social from "./Components/Social.js"
+
+
 
 
 export default function App() {
   return (
-    <main className="text-white bg-gray-900 body-font">
+    <div className="flex">
+      <div className=" w-1/12  bg-gray-900">
+       
+       <Social/>
+      </div>
+    
+    <main className=" w-full text-white bg-gray-900 body-font ">
+      
       <Navbar />
       <About />
       <Experience />
@@ -18,5 +28,6 @@ export default function App() {
       <Contact />
 
     </main>
+    </div>
   );
 }

@@ -4,15 +4,32 @@ export default function About() {
     return (
         <section id="about">
         <div className="container mx-auto flex px-20 py-40 md:flex-row flex-col items-center">
+            
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-5xl text-5xl mb-4 font-medium text-white">
-              Hi, I'm Sanika Gandhe.
-
-              <p className="mt-5 sm:text-3xl text-3xl">Software Engineer </p>
+            <h1 className="title-font sm:text-2xl text-2xl mb-4 font-medium text-gray-400">
+              Hi, I'm 
               <br/>
-              <p className="title-font sm:text-3xl text-3xl mb-4 font-medium text-gray-400">
-              <br className="hidden lg:inline-block " />Tech enthusiast with a knack for innovation, poised to excel and 
-              actively seeking dynamic roles in software full-stack, backend, frontend, data, or test engineering.
+              <p className="sm:text-6xl text-6xl text-green-300">
+              Sanika Gandhe.
+              </p>
+              <p className="mt-5 sm:text-xl text-xl">Software Engineer | MS in Software Engineering | BTech in Computer Engineering </p>
+              <br/>
+              <p className="title-font sm:text-2xl text-2xl mb-4 font-medium text-gray-400 text-justify">
+              <br className="hidden lg:inline-block " />
+              I am driven by an insatiable hunger to explore every facet of Software Development, 
+              constantly seeking new challenges and opportunities to expand my knowledge. 
+              As a dedicated Tech enthusiast, I thrive on innovation and am fueled by the endless possibilities of 
+              technology.
+              <br/>
+              <br/>
+            Whether it's tackling the complexities of full-stack development, 
+              crafting seamless frontend experiences, architecting robust backend systems, mining insights from data,
+              or ensuring the quality of software through rigorous testing, 
+              I am actively seeking dynamic roles in software, spanning full-stack, backend, frontend, data, 
+              and test engineering.
+              <br/>
+              <br/>
+              Let's excel together, one line of code at a time!
               </p>
              
             </h1>
@@ -25,7 +42,7 @@ export default function About() {
                 </div>
             </a>
             </div>
-        <img src="./IMG_5624.png" width="30%" alt="image" className="ml-200"/>
+        <img src="./IMG_5624.png" width="40%" alt="image" className="ml-200"/>
             
           
             {/* <p className="mb-8 leading-relaxed">

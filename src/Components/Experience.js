@@ -27,11 +27,12 @@ export default function Experience() {
     };
 
     return (
-        <section id="Experience" className={`container mx-auto flex px-10 py-60 flex-col ${isVisible ? 'fade-in' : 'opacity-0'}`}>
-            <h2 className="mb-4 flex title-font sm:text-5xl text-5xl mb-4 font-medium text-white">Experience</h2>
+        <section id="Experience" className={`container mx-auto flex px-10 py-40 flex-col ${isVisible ? 'fade-in' : 'opacity-0'}`}>
+            <h2 className="mb-4 flex title-font sm:text-5xl text-5xl mb-4 font-medium text-green-300">Experience</h2>
+            <div class="border-b border-gray-400 w-full"></div>
             {experienceData.map(experience => (
-                <div key={experience.id} className="py-10 mb-4 flex title-font sm:text-3xl text-3xl mb-4 font-medium text-gray-400 hover:bg-gray-800">
-                    <div className="sm:text-xl text-xl mb-4">
+                <div key={experience.id} className="py-10 mb-4 flex title-font sm:text-xl text-3xl mb-4 font-medium text-gray-400 hover:bg-gray-800">
+                    <div className="sm:text-xl text-2xl mb-4">
                         <p>{experience.duration}</p>
                     </div>
                     <div className="mr-5 px-20 flex items-start flex-col">
