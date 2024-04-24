@@ -12,7 +12,7 @@ export default function About() {
               <p className="sm:text-6xl text-6xl text-green-300">
               Sanika Gandhe.
               </p>
-              <p className="mt-5 sm:text-xl text-xl">Software Engineer | MS in Software Engineering | BTech in Computer Engineering </p>
+              <p className="text-white mt-5 sm:text-2xl text-xl">Software Engineer | MS in Software Engineering | BTech in Computer Engineering </p>
               <br/>
               <p className="title-font sm:text-2xl text-2xl mb-4 font-medium text-gray-400 text-justify">
               <br className="hidden lg:inline-block " />
@@ -34,7 +34,7 @@ export default function About() {
              
             </h1>
             <a href="https://drive.google.com/file/d/1XFs0XF-Az7We-eP_rU1LzexLHAeqky7u/view?usp=sharing" 
-             className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0  text-xl">
+             className="inline-flex items-center bg-gray-700 border-0 py-2 px-3 focus:outline-none hover:bg-gray-600 rounded text-base mt-4 md:mt-0  text-xl">
              
             View full resume
             <div style={{ transform: 'rotate(-45deg)' }}>

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import {faGithub} from "@fortawesome/free-brands-svg-icons"
-import {faGoogle} from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import {faInstagram} from "@fortawesome/free-brands-svg-icons"
 
 
@@ -15,25 +15,25 @@ export default function Social() {
         <div class="border-r-2 border-green-300 h-80 w-7"></div>
      <div>
         <a href="https://www.linkedin.com/in/sanikagandhe28/">
-               <FontAwesomeIcon className="p-3 hover:text-blue-800 transition-transform transform hover:-translate-y-3" icon={faLinkedin}></FontAwesomeIcon>
+               <FontAwesomeIcon className="p-3 text-gray-200 text-opacity-70 hover:text-opacity-100 hover:text-white transition-transform transform hover:-translate-y-3" icon={faLinkedin}></FontAwesomeIcon>
                </a>   
        </div>
 
        <div>
         <a href="https://www.linkedin.com/in/sanikagandhe28/">
-               <FontAwesomeIcon className="p-3 hover:text-gray-800 transition-transform transform hover:-translate-y-3 " icon={faGithub} ></FontAwesomeIcon>
+               <FontAwesomeIcon className="p-3 text-gray-200 text-opacity-70 hover:text-white transition-transform transform hover:-translate-y-3 " icon={faGithub} ></FontAwesomeIcon>
                </a>   
        </div>
 
        <div>
         <a href="https://www.linkedin.com/in/sanikagandhe28/">
-               <FontAwesomeIcon className="p-3 hover:text-blue-800 transition-transform transform hover:-translate-y-3" icon={faGoogle} ></FontAwesomeIcon>
+               <FontAwesomeIcon className="p-3 text-gray-200 text-opacity-70 hover:text-white transition-transform transform hover:-translate-y-3" icon={faEnvelope} ></FontAwesomeIcon>
                </a>   
        </div>
 
        <div>
         <a href="https://www.linkedin.com/in/sanikagandhe28/">
-               <FontAwesomeIcon className="p-3 hover:text-pink-800 transition-transform transform hover:-translate-y-3" icon={faInstagram} ></FontAwesomeIcon>
+               <FontAwesomeIcon className="p-3 text-gray-200 text-opacity-70 hover:text-white transition-transform transform hover:-translate-y-3" icon={faInstagram} ></FontAwesomeIcon>
                </a>   
        </div>
       

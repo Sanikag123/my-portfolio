@@ -1,33 +1,42 @@
 [
   { 
     "id": 1, 
-    "title": "Project 1", 
+    "title": "Vast Challenge 2022- MC 3 - Economic Issues and Financial Health", 
     "description": 
-      " Detailed description of Project 1, Detailed description of Project 1, Detailed description of Project 1,"
-    ,
-   
-    "technologies": ["HTML", "CSS", "JavaScript" ]
+    "Constructed a web app for interactive data visualizations using D3.js, featuring 6 distinct chart types enhanced with animations and interactive functionalities. \nEstablished RESTful APIs in Flask for efficient frontend-backend communication while simultaneously performing data preprocessing using Python and pandas.",
+
+    "technologies": ["JavaScript", "D3.js", "Python", "Flask", "RESTful API" ],
+    "image": "./projectImages/D3project.png",
+    "link": ""
+
   },
 
   { 
     "id": 2, 
-    "title": "Project 2", 
-    "description": "Detailed description of Project 2", 
-    "technologies": ["React", "Node.js", "MongoDB"] 
+    "title": "Smart Museum Tours", 
+    "description": "Created an application leveraging Linked Open Data (LOD) to deliver artifact details within museums via QR code scans, utilizing React.js and SPARQL. Implemented a Spring Boot application with REST APIs and integrated that with AWS-hosted Fuseki servers via the Apache Jena framework.",
+    "technologies": ["ReactJS", "JAVA",  "Spring Boot", "SPARQL", "RESTful API"],
+    "image": "./projectImages/531project.png",
+    "link": "https://github.com/MohnishMagesh/museum-project-531/"
   },
+
   
   { 
-    "id": 1, 
-    "title": "Project 1", 
-    "description": "Detailed description of Project 1", 
-    "technologies": ["HTML", "CSS", "JavaScript"] 
+    "id": 3, 
+    "title": "Github Ideal Behaviors", 
+    "description": "Crafted a Python-based system using FastAPI framework to automatically categorize developers by their Git contributions, resulting in over 60% reduction in managerial investigation time. Employed a robust MVC architecture with Pydantic models to optimize data handling and system structure, achieving a code coverage of 96% through Pytest unit testing.", 
+    "technologies": ["Python", "FastAPI", "MVC", "Pytest", "Github"],
+    "image": "./projectImages/github.webp",
+    "link": ""
   },
 
   { 
-    "id": 2, 
-    "title": "Project 2", 
-    "description": "Detailed description of Project 2", 
-    "technologies": ["React" , "Node.js", "MongoDB" ]
+    "id": 4, 
+    "title": "Automatic defect Inspector based on CNN and Computer Vision", 
+    "description": "Developed an CNN model for automated inspection system utilizing TensorFlow, OpenCV, achieving a 16% efficiency improvement and comparing the accuracy of YOLO v3 (mAP 71.65%) and Faster R-CNN (mAP 42.69%) algorithms.",
+    "technologies": ["CNN" , "Python", "Tensorflow", "Pandas" ],
+    "image": "./projectImages/undegrad.png",
+    "link": ""
   }
   
 ]

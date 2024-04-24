@@ -2,6 +2,7 @@ import React from "react"
 import projectsData from "./Data/projects.json"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faClose} from "@fortawesome/free-solid-svg-icons"
+import { faExternalLink } from "@fortawesome/free-solid-svg-icons"
 
 export default function Projects() {
 
@@ -51,14 +52,33 @@ export default function Projects() {
            
                 {projectsData.map(project => (
                     <div key={project.id} className=" w-full sm:w-1/2 md:w-1/2 lg:w-1/2 p-4">
-                        <div className="h-96 bg-gray-400 shadow-md rounded-lg px-10 py-10 cursor-pointer transition-transform transform hover:text-white hover:-translate-y-5" onClick={() => openPopup(project.id)} >
-                            <h2 className="text-2xl font-bold mb-2 text-black p-2">{project.title}</h2>
+                        <div className=" h-full bg-gray-300 shadow-md rounded-lg px-10 py-10 cursor-pointer transition-transform transform hover:text-white hover:-translate-y-5 " >
+                       
+                            <img
+                            alt="gallery"
+                            className="absolute inset-0 object-cover h-full w-full object-top hover:opacity-0"
+                            src={project.image}
+                            />
+                          <div className="h-full w-full bg-white cursor-pointer "  >
+                         
+                          
+                            <h2 className="text-3xl font-bold mb-2 text-black p-2">{project.title}</h2>
+                         
                             <p className="text-xl text-gray-600 mb-2 p-4">{project.description}</p>
-                            <ul className="mb-2 list-none p-auto flex items-center text-xl text-xl">
+                            <ul className="mb-2 list-none p-auto flex flex-wrap items-center text-xl text-xl">
                             {project.technologies.map((skill, index) => (
                                 <li className="bg-gray-700 rounded-full p-3 mx-auto" key={index}>{skill}</li>
                             ))}
+                            
                         </ul>
+                        <div>
+                         
+                       <a href={project.link} className="border border-gray-300 text-xl text-blue-600 mb-2 p-4">Github Link </a>
+                        </div>
+
+                       
+
+                        </div>
                         </div>
                     </div>
                 ))}

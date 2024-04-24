@@ -16,6 +16,11 @@
     
     "title": "Databases",
     "tech": ["PostGreSQL", "Oracle", "MySQL", "SQL Server", "OrientDB", "MongoDB", "Sap Hana" ]
+    },
+
+    {
+        "title": "Other",
+        "tech" :["JUnit", "REST API", "Git", "AWS EC2", "Maven", "Jenkins", "CIS-CAT", "Shell Scripting"]
     }
 ]
   
