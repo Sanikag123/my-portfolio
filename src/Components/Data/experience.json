@@ -1,27 +1,41 @@
 [
   {
     "id": 1,
-    "duration": "Jan 2020 - Present",
-    "title": "Software Engineer",
-    "company": "ABC Company",
-    "description": "Responsible for developing web applications using React.js and Node.js.",
-    "skills": ["React.js", "Node.js", "JavaScript", "HTML", "CSS"]
+    "duration": "May 2023 - October 2023",
+    "title": "Engineering Intern",
+    "company": "Commvault Systems",
+    "description": [
+      "Contributed to a cybersecurity project focusing on Operating System hardening and configuration management.",
+    "Spearheaded rigorous OS hardening tests using CIS tools, resulting in improved system security and elevated CIS score by 21%.", 
+    "Developed tailored manifest files for LAMP configurations using shell scripting, ensuring consistent environment setups.",
+    "Orchestrated VM creation and image deployment (VMDK/OVF) utilising VMware EXSi."
+    ],
+    "skills": ["Linux", "LAMP", "Cybersecurity", "CIS"]
   },
   {
     "id": 2,
-    "duration": "Jun 2018 - Dec 2019",
-    "title": "Intern",
-    "company": "XYZ Corporation",
-    "description": "Assisted in various software development projects and gained hands-on experience.",
-    "skills": ["Java", "Python", "SQL", "Git"]
+    "duration": "December 2020 - June 2022",
+    "title": "Software Engineer",
+    "company": "eQ Technologic Pvt. Ltd.",
+    "description": [
+      "Engineered and modeled Java connectors facilitating data operations between enterprise systems and EQ’s business intelligence and migration products.",
+    " Executed Maven-based cross-platform integration performing CRUD functionalities in SQL and NoSQL database connectors using an extended JDBC framework.",
+    "Created microservices for a graph database’s Next-Gen connector, resulting in a 27% performance boost verified by QA.",
+    "Incorporated efficient Object-Oriented Programming principles and Java features to implement diverse functionalities complemented by rigorous unit testing using JUnit5 framework.",
+    "Enhanced code quality through SonarQube-compliant refactoring and reformatting, boosting maintainability and efficiency.",
+    "Well-versed with test-driven development, version control system, customer interaction and troubleshooting and Jenkins.",
+    "Led and mentored a team of 2 junior colleagues, demonstrating effective leadership and management skills."
+  ],
+    "skills": ["Java", "JDBC", "SQL", "NoSQL","Maven", "POSTGRESQL","OOP", "Junit", "Restful API"]
   },
 
   {
     "id": 3,
-    "duration": "Jun 2018 - Dec 2019",
+    "duration": "June 2019 - July 2019",
     "title": "Intern",
-    "company": "XYZ Corporation",
-    "description": "Assisted in various software development projects and gained hands-on experience.",
-    "skills": ["Java", "Python", "SQL", "Git"]
+    "company": "Winpoint Learning Center",
+    "description": ["• Built a web application, applying various JAVA design patterns to architect the system, utilizing servlets for dynamic web support, and JDBC for backend connectivity.",
+    "Wrote more than 50 test cases for modules and performed unit testing of the system as a part of QA team."],
+    "skills": ["Java", "Servlets", "SQL"]
   }
 ]

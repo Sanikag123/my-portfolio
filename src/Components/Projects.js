@@ -56,7 +56,7 @@ export default function Projects() {
                        
                             <img
                             alt="gallery"
-                            className="absolute inset-0 object-cover h-full w-full object-top hover:opacity-0"
+                            className="border-8 border-green-300  absolute inset-0 object-cover h-full w-full object-top hover:opacity-0"
                             src={project.image}
                             />
                           <div className="h-full w-full bg-white cursor-pointer "  >

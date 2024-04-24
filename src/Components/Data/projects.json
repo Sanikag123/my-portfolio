@@ -30,13 +30,52 @@
     "link": ""
   },
 
+  
+
   { 
     "id": 4, 
+    "title": "Personal Portofolio using ReactJS", 
+  "description": "Developed a dynamic personal portfolio website using React.js and Tailwind CSS, showcasing skills, projects, and experiences. Implemented responsive design, smooth navigation, and a contact form for user interaction. Hosted the website on GitHub Pages for easy access and continuous updates",
+    "technologies": ["ReactJS" , "JSON", "TailWind CSS", "Github" ],
+    "image": "./projectImages/portfolio.png",
+    "link": ""
+  },
+  
+  { 
+    "id": 5, 
     "title": "Automatic defect Inspector based on CNN and Computer Vision", 
     "description": "Developed an CNN model for automated inspection system utilizing TensorFlow, OpenCV, achieving a 16% efficiency improvement and comparing the accuracy of YOLO v3 (mAP 71.65%) and Faster R-CNN (mAP 42.69%) algorithms.",
     "technologies": ["CNN" , "Python", "Tensorflow", "Pandas" ],
     "image": "./projectImages/undegrad.png",
     "link": ""
+  },
+
+  { 
+    "id": 6, 
+    "title": "Automated Testing with Cypress", 
+"description": "Leveraged Cypress for end-to-end testing, ensuring web app functionality, performance, and reliability. Developed targeted test suites covering critical user flows. ",
+    "technologies": ["Cypress" , "JavaScript", "HTML/CSS" ],
+    "image": "./projectImages/cypress.png",
+    "link": ""
+  },
+
+  { 
+    "id": 7, 
+    "title": "ManPac: A 3D realistic PacMan", 
+"description": "Engineered intricate gameplay mechanics and interactive features using C# scripting within the Unity Engine to recreate the classic Pac-Man experience in a 3D environment. Integrated a diverse range of assets from the Unity Asset Store, including 3D models, textures, and animations, to enhance visual fidelity and realism, capturing the essence of the beloved arcade game.",
+    "technologies": ["Unity" , "C#"],
+    "image": "./projectImages/game.png",
+    "link": ""
+  },
+
+  { 
+    "id": 8, 
+    "title": "Virtual waitress android app", 
+"description": "Designed and developed an Android application utilizing SQLite database to facilitate food ordering at a specific restaurant.",
+    "technologies": ["Android" , "SQLite"],
+    "image": "./projectImages/android.avif",
+    "link": ""
   }
-  
+
+
 ]
