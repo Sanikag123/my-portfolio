@@ -13,8 +13,8 @@ import CreatedBy from "./Components/CreatedBy.js"
 
 export default function App() {
   return (
-    <div className="flex">
-      <div className=" w-1/12  bg-gray-900">
+    <div className="flex flex-wrap">
+      <div className="sm:w-1/12  bg-gray-900">
        
        <Social/>
       </div>

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import experienceData from './Data/experience.json';
+import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 import { ArrowRightIcon } from "@heroicons/react/solid";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Experience() {
     const [isVisible, setIsVisible] = useState(false);
@@ -31,16 +33,20 @@ export default function Experience() {
             <h2 className="mb-4 flex title-font sm:text-5xl text-5xl mb-4 font-medium text-green-300">Experience</h2>
             <div class="border-b border-gray-400 w-full"></div>
             {experienceData.map(experience => (
-                <div key={experience.id} className="py-10 mb-4 flex title-font sm:text-xl text-3xl mb-4 font-medium text-gray-400 hover:bg-gray-800">
-                    <div className="w-1/4 sm:text-xl text-xl mb-4">
+                <a href={experience.website}>
+            <div key={experience.id} className="py-10 mb-4 flex flex-col xs:flex-col sm:flex-row md:flex-row title-font sm:text-xl text-3xl mb-4 font-medium text-gray-400 hover:bg-gray-800">
+
+                <div className="xs:w-full sm:w-1/4 w-full sm:text-xl text-xl mb-4">
                         <p>{experience.duration}</p>
                     </div>
-                    <div className="w-3/4 mr-5 px-20 flex items-start flex-col">
+                    <div className="xs:w-full sm:w-3/4 flex flex-col">
                         <div className="sm:text-3xl text-2xl flex items-center">
                             <p className=" text-white">{experience.title},  {experience.company}</p>
-                            <div className="px-2 rotate-arrow">
+                            <FontAwesomeIcon className="p-2" icon={faExternalLink}></FontAwesomeIcon>
+                            {/* <div className="px-2 rotate-arrow">
+                                
                                 <ArrowRightIcon className="h-5 w-5" />
-                            </div>
+                            </div> */}
                         </div>
                         {/* <p className="text-xl text-xl">{experience.description}</p> */}
 
@@ -57,6 +63,7 @@ export default function Experience() {
                         </ul>
                     </div>
                 </div>
+                </a>
             ))}
         </section>
     );

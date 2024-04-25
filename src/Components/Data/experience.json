@@ -10,7 +10,8 @@
     "Developed tailored manifest files for LAMP configurations using shell scripting, ensuring consistent environment setups.",
     "Orchestrated VM creation and image deployment (VMDK/OVF) utilising VMware EXSi."
     ],
-    "skills": ["Linux", "LAMP", "Cybersecurity", "CIS"]
+    "skills": ["Linux", "LAMP", "Cybersecurity", "CIS"],
+    "website": "https://www.commvault.com/?utm_source=google&utm_medium=cpc&utm_campaign=amer_brand&utm_content=text-link&gad_source=1&gclid=EAIaIQobChMI7-Xlku7chQMV_yqtBh2nOQWnEAAYASAAEgLq2PD_BwE"
   },
   {
     "id": 2,
@@ -26,7 +27,8 @@
     "Well-versed with test-driven development, version control system, customer interaction and troubleshooting and Jenkins.",
     "Led and mentored a team of 2 junior colleagues, demonstrating effective leadership and management skills."
   ],
-    "skills": ["Java", "JDBC", "SQL", "NoSQL","Maven", "POSTGRESQL","OOP", "Junit", "Restful API"]
+    "skills": ["Java", "JDBC", "SQL", "NoSQL","Maven", "POSTGRESQL","OOP", "Junit", "Restful API"],
+    "website": "https://www.1eq.com/"
   },
 
   {
@@ -34,8 +36,9 @@
     "duration": "June 2019 - July 2019",
     "title": "Intern",
     "company": "Winpoint Learning Center",
-    "description": ["• Built a web application, applying various JAVA design patterns to architect the system, utilizing servlets for dynamic web support, and JDBC for backend connectivity.",
+    "description": ["Built a web application, applying various JAVA design patterns to architect the system, utilizing servlets for dynamic web support, and JDBC for backend connectivity.",
     "Wrote more than 50 test cases for modules and performed unit testing of the system as a part of QA team."],
-    "skills": ["Java", "Servlets", "SQL"]
+    "skills": ["Java", "Servlets", "SQL"],
+    "website": "http://www.winpointlc.com/"
   }
 ]

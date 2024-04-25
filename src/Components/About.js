@@ -5,7 +5,7 @@ export default function About() {
         <section id="about">
         <div className="container mx-auto flex px-20 py-40 md:flex-row flex-col items-center">
             
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div className="lg:flex-grow md:w-3/4 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-2xl text-2xl mb-4 font-medium text-gray-400">
               Hi, I'm 
               <br/>
@@ -42,15 +42,9 @@ export default function About() {
                 </div>
             </a>
             </div>
-        <img src="./IMG_5624.png" width="35%" alt="image" className="ml-200"/>
+        <img src="./IMG_5624.png"  alt="image" className="md:w-90 md:h-90 sm:w-2/5 xs:w-20 xs:h-20 ml-200"/>
             
-          
-            {/* <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
-          
-            </p> */}
+    
         
             </div>
             </section>
