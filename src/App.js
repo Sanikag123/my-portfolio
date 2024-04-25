@@ -6,6 +6,7 @@ import Skills from "./Components/Skills"
 import Contact from "./Components/Contact"
 import Experience from "./Components/Experience.js"
 import Social from "./Components/Social.js"
+import CreatedBy from "./Components/CreatedBy.js"
 
 
 
@@ -26,6 +27,7 @@ export default function App() {
       <Projects />
       <Skills />
       <Contact />
+      <CreatedBy />
 
     </main>
     </div>

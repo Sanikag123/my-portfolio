@@ -73,7 +73,7 @@ export default function Projects() {
                         </ul>
                         <div>
                          
-                       <a href={project.link} className="border border-gray-300 text-xl text-blue-600 mb-2 p-4">Github Link </a>
+                       {/* <a href={project.link} className="border border-gray-300 text-xl text-blue-600 mb-2 p-4">Github Link </a> */}
                         </div>
 
                        
@@ -83,25 +83,7 @@ export default function Projects() {
                     </div>
                 ))}
             </div>
-            {selectedProject && (
-                <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 bg-opacity-75 z-50">
-                    {/* <button className="top-0 right-0 p-3" onClick={closePopup}>
-                            <svg className="w-6 h-6 text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                            </svg>
-                        </button> */}
-                       
-                    <div className="bg-gray-400 rounded-lg p-8 max-w-lg relative">
-                    <FontAwesomeIcon icon={faClose} className="w-6 h-6 absolute top-0 right-0 mt-2 mr-2 hover:text-gray-800" onClick={closePopup}></FontAwesomeIcon>
-                        <h2 className="text-2xl font-bold mb-4">{selectedProject.title}</h2>
-                        
-                        <p className="text-gray-800 mb-4">{selectedProject.description}</p>
-                        <p className="text-gray-800">{`Technologies: ${selectedProject.technologies}`}</p>
-                       
-                    </div>
-                   
-                </div>
-            )}
+           
         </div>
         </section>
     );

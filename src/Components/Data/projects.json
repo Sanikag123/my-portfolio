@@ -16,7 +16,7 @@
     "title": "Smart Museum Tours", 
     "description": "Created an application leveraging Linked Open Data (LOD) to deliver artifact details within museums via QR code scans, utilizing React.js and SPARQL. Implemented a Spring Boot application with REST APIs and integrated that with AWS-hosted Fuseki servers via the Apache Jena framework.",
     "technologies": ["ReactJS", "JAVA",  "Spring Boot", "SPARQL", "RESTful API"],
-    "image": "./projectImages/531project.png",
+    "image": "./projectImages/smartmuseum.png",
     "link": "https://github.com/MohnishMagesh/museum-project-531/"
   },
 

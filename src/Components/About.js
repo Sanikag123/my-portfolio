@@ -14,7 +14,7 @@ export default function About() {
               </p>
               <p className="text-white mt-5 sm:text-2xl text-xl">Software Engineer | MS in Software Engineering | BTech in Computer Engineering </p>
               <br/>
-              <p className="title-font sm:text-2xl text-2xl mb-4 font-medium text-gray-400 text-justify">
+              <p className="title-font sm:text-xl text-xl mb-4 font-medium text-gray-400 text-justify">
               <br className="hidden lg:inline-block " />
               I am driven by an insatiable hunger to explore every facet of Software Development, 
               constantly seeking new challenges and opportunities to expand my knowledge. 
@@ -42,7 +42,7 @@ export default function About() {
                 </div>
             </a>
             </div>
-        <img src="./IMG_5624.png" width="40%" alt="image" className="ml-200"/>
+        <img src="./IMG_5624.png" width="35%" alt="image" className="ml-200"/>
             
           
             {/* <p className="mb-8 leading-relaxed">

@@ -20,19 +20,19 @@ export default function Social() {
        </div>
 
        <div>
-        <a href="https://www.linkedin.com/in/sanikagandhe28/">
+        <a href="https://github.com/Sanikag123">
                <FontAwesomeIcon className="p-3 text-gray-200 text-opacity-70 hover:text-white transition-transform transform hover:-translate-y-3 " icon={faGithub} ></FontAwesomeIcon>
                </a>   
        </div>
 
        <div>
-        <a href="https://www.linkedin.com/in/sanikagandhe28/">
+        <a href="mailto:sgandhe1@asu.edu">
                <FontAwesomeIcon className="p-3 text-gray-200 text-opacity-70 hover:text-white transition-transform transform hover:-translate-y-3" icon={faEnvelope} ></FontAwesomeIcon>
                </a>   
        </div>
 
        <div>
-        <a href="https://www.linkedin.com/in/sanikagandhe28/">
+        <a href="https://www.instagram.com/saani_taani/">
                <FontAwesomeIcon className="p-3 text-gray-200 text-opacity-70 hover:text-white transition-transform transform hover:-translate-y-3" icon={faInstagram} ></FontAwesomeIcon>
                </a>   
        </div>
