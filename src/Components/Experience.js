@@ -50,7 +50,7 @@ export default function Experience() {
                             ))}
                         </ul>
 
-                        <ul className="list-none pt-4 flex text-xl text-xl">
+                        <ul className="list-none pt-4 flex flex-wrap text-xl text-xl">
                             {experience.skills.map((skill, index) => (
                                 <li className="bg-gray-700 rounded-full px-3 py-1 mr-2 mb-2" key={index}>{skill}</li>
                             ))}
