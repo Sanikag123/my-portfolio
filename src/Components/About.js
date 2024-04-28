@@ -16,7 +16,7 @@ export default function About() {
               <br/>
               <p className="title-font sm:text-xl text-xl mb-4 font-medium text-gray-400 text-justify">
               <br className="hidden lg:inline-block " />
-              I am driven by an insatiable hunger to explore every facet of Software Development, 
+              I am a May 2024 graduate, driven by an insatiable hunger to explore every facet of Software Development, 
               constantly seeking new challenges and opportunities to expand my knowledge. 
               As a dedicated Tech enthusiast, I thrive on innovation and am fueled by the endless possibilities of 
               technology.
@@ -33,10 +33,10 @@ export default function About() {
               </p>
              
             </h1>
-            <a href="https://drive.google.com/file/d/1XFs0XF-Az7We-eP_rU1LzexLHAeqky7u/view?usp=sharing" 
-             className="inline-flex items-center bg-gray-700 border-0 py-2 px-3 focus:outline-none hover:bg-gray-600 rounded text-base mt-4 md:mt-0  text-xl">
+            <a href="https://drive.google.com/file/d/1lt7pe1R91vMgcblIpeKo5Zj-_y1H9lwv/view?usp=sharing" 
+             className="inline-flex items-center bg-gray-700 border-0 py-4 px-4 focus:outline-none hover:bg-gray-600 rounded text-base mt-4 md:mt-0  text-xl">
              
-            View full resume
+            Download full resume
             <div style={{ transform: 'rotate(-45deg)' }}>
                 <ArrowRightIcon className="h-5 w-5" />
                 </div>
